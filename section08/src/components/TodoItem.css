@@ -1,0 +1,51 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  font-size: 15px;
+}
+
+.todo-item .content {
+  flex: 1;
+}
+
+.todo-item .date {
+  color: gray;
+  font-size: 14px;
+}
+
+.todo-item > button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #e7e7e9;
+  font-size: 14px;
+}
+
+.todo-item > input[type='checkbox'] {
+  display: none;
+}
+
+.todo-item > input[type='checkbox'] + label {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid #e7e7e9;
+}
+
+.todo-item > input[id='is-done']:checked + label::after {
+  content: '✔︎';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+}

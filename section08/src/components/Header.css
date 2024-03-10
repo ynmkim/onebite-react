@@ -1,0 +1,11 @@
+.header .title {
+  padding: 16px 0;
+  border-bottom: 1px solid #e7e7e9;
+  font-size: 28px;
+}
+
+.header .today {
+  padding: 14px 0;
+  font-size: 20px;
+  color: pink;
+}

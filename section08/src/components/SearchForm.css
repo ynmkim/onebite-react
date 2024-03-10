@@ -1,0 +1,11 @@
+.search-form > input {
+  width: 100%;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e7e7e9;
+  font-size: 14px;
+  color: #0d0c22;
+}
+
+.search-form > input:focus {
+  border-bottom: 1px solid pink;
+}
