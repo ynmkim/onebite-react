@@ -9,8 +9,6 @@ const TodoList = () => {
       <SearchForm />
       <ul className="todo-list">
         <TodoItem />
-        <TodoItem />
-        <TodoItem />
       </ul>
     </div>
   );
